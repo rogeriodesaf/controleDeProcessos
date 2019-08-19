@@ -52,12 +52,20 @@ require_once "../../classes/conexao.php";
 			<input  type="date" class="form-control input-sm" id="quantidadeV" name="quantidadeV" placeholder="Insira o ano de abertura do processo">
 			<label>Data Julgamento</label>
 			<input  type="date" class="form-control input-sm" id="quantidadeV" name="quantidadeV" placeholder="Data do julgamento">
-			<label>Valor 1ª grau</label>
-			<input  type="number" class="form-control input-sm" id="precoV" name="precoV" placeholder="Insira o valor que vocÊ vai ter que pagar, safado.">
-			<label>Quantidade Vendida</label>
-			<input type="number" class="form-control input-sm" id="quantV" name="quantV" placeholder="O que danado tem a ver quantidade vendida com esse programa? ">
-			<label>Valor 2ª grau</label>
-			<input  type="number" class="form-control input-sm" id="precoV" name="precoV" placeholder="Fui eu que fiz esse placeholder.">
+			<div class="form-group">
+                <label>Câmara</label>
+                <select class="form-control" name="categoria">
+				  
+				  
+					<option>-----</option>
+                  <option>1ª Grau</option>
+                  <option>2º Grau</option>
+				  
+                 </select>
+            </div>
+			<label>Valor</label>
+			<input type="number" class="form-control input-sm" id="quantV" name="quantV" >
+			
 			<p></p>
 
 			<div class="form-group">
